@@ -3,17 +3,14 @@
   "type": "module",
   "version": "0.0.5",
   "packageManager": "pnpm@7.0.0",
-  "description": "",
+  "description": "网易云音乐云盘管理工具",
   "keywords": [],
   "homepage": "https://github.com/MoonlightSmile/net-cloud#readme",
-  "bugs": {
-    "url": "https://github.com/MoonlightSmile/net-cloud/issues"
-  },
   "license": "MIT",
   "author": "MoonlightSmile <362652565@qq.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoonlightSmile/net-cloud.git"
+    "url": "https://github.com/MoonlightSmile/net-cloud.git"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",

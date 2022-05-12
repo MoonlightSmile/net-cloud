@@ -1,7 +1,7 @@
 {
   "name": "net-cloud",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "packageManager": "pnpm@7.0.0",
   "description": "网易云音乐云盘管理工具",
   "keywords": [],
@@ -16,7 +16,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "bin": {
-    "netc": "./dist/index.cjs"
+    "netc": "bin/index.mjs"
   },
   "exports": {
     ".": {

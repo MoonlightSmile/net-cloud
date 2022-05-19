@@ -3,7 +3,7 @@ import { Command } from "commander";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 import { homedir } from "os";
-import { first } from "lodash";
+import _ from "lodash";
 import ora from "ora";
 import net from "NeteaseCloudMusicApi";
 import { Datum } from "../type";
@@ -64,7 +64,7 @@ program
               const arList = ar.map((e) => e.name).join(" / ");
               return {
                 歌名: name,
-                别名: first(alia),
+                别名: _.first(alia),
                 "🎙️ 演唱": arList,
                 "💽 专辑": al.name,
                 "📃 大小": (e.fileSize / 1024 / 1024).toFixed(0) + " MB",

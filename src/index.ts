@@ -10,7 +10,7 @@ import { Datum } from "../type";
 import dayjs from "dayjs";
 import inquirer from "inquirer";
 
-export const configPath = join(homedir(), ".netrc");
+const configPath = join(homedir(), ".netrc");
 const program = new Command();
 program
   .version("0.0.1")

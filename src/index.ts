@@ -3,7 +3,7 @@ import { Command } from "commander";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 import { homedir } from "os";
-import first from "lodash/first";
+import { first } from "lodash";
 import ora from "ora";
 import net from "NeteaseCloudMusicApi";
 import { Datum } from "../type";
